@@ -5,7 +5,7 @@
 .logo{
     font-size: 24px;
     color: #f9faf8;
-    /* margin-left: 200px; */
+    margin-left: 200px;
 }
 nav ul{
     display: flex;
@@ -136,56 +136,4 @@ footer{
   }
 
 
-  @media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-
-    .header nav ul {
-        justify-content: center;
-        width: 100%;
-    }
-
-    .website-content h1 {
-        font-size: 36px;
-    }
-
-    .btn, .butn {
-        width: 100%;
-        max-width: 100px;
-        margin: 10px auto;
-    }
-
-    .image {
-        transform:none;
-        /* max-width: 100%; */
-        height: auto;
-        width: 80%;
-        margin: 20px auto;
-    }
-
-    .box-content {
-        width: 45%;
-        margin: 10px 0;
-    }
-
-    .sub-text {
-        flex-direction: column;
-    }
-
-    .cta-section {
-        width: 100%;
-        padding:10px;
-    }
-
-    .cta-section h5, .cta-section p {
-        padding-left: 0;
-    }
-
-    .butn {
-        transform: none;
-        margin-top: 10px;
-    }
-}
+ 
